@@ -10,6 +10,11 @@ int main()
   step = 20;
 
   fahr = lower;
+
+  printf("=====================================\n");
+  printf("Programa de conversión de temperatura\n");
+  printf("       Fahrenheit a Celsius\n");
+  printf("=====================================\n");
   while (fahr <= upper )
   {
     celsius = (5.0/9.0) * (fahr - 32.0); 
